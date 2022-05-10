@@ -7,14 +7,13 @@ namespace MyApp // Note: actual namespace depends on the project name.
         static void Main(string[] args)  //entry point
         {
             //Dichiarazione di un vettore
-            int[] vect = new int[120];
+            int[] vect = new int[130];
             vect[0] = 100;
 
             string[] svect = new string[10];
             svect[9] = "Ciao";
             for (int i=0; i<svect.Length; ++i)
                 Console.WriteLine("{0}: {1}", i, svect[i]);
-
 
             //namespace, classe, metodo
             int v1, v2;
