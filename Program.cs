@@ -7,7 +7,7 @@ namespace MyApp // Note: actual namespace depends on the project name.
         static void Main(string[] args)  //entry point
         {
             //Dichiarazione di un vettore
-            int[] vect = new int[130];
+            int[] vect = new int[110];
             vect[0] = 100;
 
             string[] svect = new string[10];
